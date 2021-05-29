@@ -152,39 +152,7 @@ class Swimming_poolTest {
 		assertEquals(160,test.swimming_pool(test_date, test_member, test_age, test_time, test_group));
 	}
 	
-	@Test
-	void testSwimming_pool6() {
-		Swimming_pool test = new Swimming_pool();
-		int test_date = 4;
-		boolean test_member = false;
-		int test_age = 61;
-		int test_time = 12;
-		boolean test_group = false;
-		assertEquals(160,test.swimming_pool(test_date, test_member, test_age, test_time, test_group));
-	}
-	
-	@Test
-	void testSwimming_pool7() {
-		Swimming_pool test = new Swimming_pool();
-		int test_date = 4;
-		boolean test_member = false;
-		int test_age = 2;
-		int test_time = 12;
-		boolean test_group = false;
-		assertEquals(0,test.swimming_pool(test_date, test_member, test_age, test_time, test_group));
-	}
-	
-	@Test
-	void testSwimming_pool8() {
-		Swimming_pool test = new Swimming_pool();
-		int test_date = 4;
-		boolean test_member = false;
-		int test_age = 3;
-		int test_time = 12;
-		boolean test_group = false;
-		assertEquals(160,test.swimming_pool(test_date, test_member, test_age, test_time, test_group));
-	}
-	
+
 
 }
 
